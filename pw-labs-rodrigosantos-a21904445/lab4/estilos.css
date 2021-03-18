@@ -122,6 +122,5 @@ img.stickyImage{
     width: 150px;
     height: auto;
     text-align: center;
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
 }
