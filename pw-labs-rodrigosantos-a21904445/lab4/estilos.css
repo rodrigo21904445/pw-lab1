@@ -1,0 +1,127 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color:lightskyblue;
+}
+
+h1{
+    color:royalblue;
+}
+
+h3{
+    color: darkcyan;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h4{
+    color:cornflowerblue;
+}
+
+a[target="_blank"]{
+    background-color: burlywood;
+}
+
+.sydneyIntroduction{
+    font-family: 'Chango', cursive;
+    font-size: 21px;
+    color: brown;
+}
+
+.sydneyIntroduction::first-letter{
+    font-size: xx-large;
+}
+
+#indexLinkIntroduction:hover{
+    color: brown;
+}
+
+#localLinkIntroduction:hover{
+    color: brown;
+}
+
+#multimediaLinkIntroduction:hover{
+    color: brown;
+}
+
+#infoLinkIntroduction:hover{
+    color: brown;
+}
+
+#local{
+    font-family: 'Chango', cursive;
+    font-size: 21px;
+    color:mediumblue;
+}
+
+#local::first-letter{
+    font-size: xx-large;
+}
+
+.sydneyIntroduction::selection, #local::selection{
+    color:tomato;
+    background-color:royalblue;
+}
+
+.operaBridgeImages{
+    color:darkslateblue;
+}
+
+#indexLink:hover, #localLink:link, #multimediaLink:active, #infoLink:hover, #quizzLink:hover, #comentariosLink:hover, #homeLink:visited{
+    color:maroon;
+}
+
+tr:nth-child(even){
+    background-color:cadetblue;
+}
+
+tr:nth-child(odd){
+    background-color:darkolivegreen;
+}
+
+div.poemTitleAndAuthor::selection{
+    color: firebrick;
+    background-color: darkslateblue;
+}
+
+.quizzForm{
+    display: block;
+}
+
+div.poem::selection{
+    color:lightcoral;
+    background-color:darkgoldenrod;    
+}
+
+#mainImage{
+    border-radius: 8px;
+}
+
+#mainImageCaption{
+    font-family: 'Source Code Pro', monospace;
+    color:royalblue;
+    font-size: 15px;
+}
+
+img.animatedGif{
+    width: 30px;
+    height: auto;
+}
+
+tr td{
+    font-size: 16px;
+}
+
+tr > td{
+    font-size: 18px;
+}
+
+img.stickyImage{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+}
