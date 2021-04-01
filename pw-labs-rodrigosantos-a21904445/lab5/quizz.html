@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rodrigo Santos">
+        <meta name="keywords" content="Sydney">
+        <meta name="description" content="Website sobre Sydney">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sydney</title>
+        <link rel="shortcut icon" type="images/icon" href="images/icon.ico"/>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="images/img.jpg" alt="Sydney" id="mainImage">
+                <figcaption id="mainImageCaption">Sydney <img class="animatedGif" src="https://media.giphy.com/media/VNGhrQtzWORWM/giphy.gif"></figcaption>
+            </figure>
+            <br>
+        </header>
+        
+        <nav>
+            <a href="index.html" id="indexLink"><span class="material-icons">&#xe22b;</span>Introdução</a>
+            <a href="local.html" id="localLink"><span class="material-icons">&#xe8b4;</span>Localização</a>
+            <a href="multimedia.html" id="multimediaLink"><span class="material-icons">&#xe04a;</span>Multimédia</a>
+            <a href="info.html" id="infoLink"><span class="material-icons md-24">info</span>Informação</a>
+            <b><a href="quizz.html" id="quizzLink"><span class="material-icons">&#xe8af;</span>Quizz</a></b>
+            <a href="comentarios.html" id="comentariosLink"><span class="material-icons md-24">feedback</span>Comentários</a>
+            <a href="html5-css.html" id="html5EcssLink"><span class="material-icons md-24">settings</span>HTML5 e CSS</a>
+            <a href="../index.html"id="homeLink"><span class="material-icons">&#xe88a;</span>Home</a>
+        </nav>
+        
+        <main>
+            <section>
+                <h3>Quizz</h3>
+    
+                <form method="POST" action="mailto:a21904445@alunos.ulht.pt">
+                    <fieldset>
+                        <legend><b>Identificação</b></legend>
+                        <label for="nome" class="nome">Nome:</label>
+                        <input type="text" name="nome" placeholder="Insira o nome" maxlength="25" autofocus required class="quizzForm">
+            
+                        <label for="apelido" class="apelido">Apelido:</label>
+                        <input type="text" name="apelido" placeholder="Insira o apelido" required class="quizzForm">
+            
+                        <label for="email" class="email">Email:</label>
+                        <input type="text" name="email" placeholder="Insira o email" autocomplete="on" size="30" required class="quizzForm">
+                    </fieldset>
+            
+                    <fieldset>
+                        <p>Sydney é a capital de estado de...</p>
+                        <input type="radio" id="Lisboa" name="capital">
+                        <label for="Lisboa" class="quizzForm">Lisboa</label>
+            
+                        <input type="radio" id="Nova Gales do Sul" name="capital">
+                        <label for="Nova Gales do Sul" class="quizzForm">Nova Gales do Sul</label>
+            
+                        <input type="radio" id="França" name="capital">
+                        <label for="França" class="quizzForm">França</label>
+                    </fieldset>
+        
+                    <fieldset>
+                        <p>A área total de sydney é...</p>
+                        <input type="checkbox" id="11.000" name="area">
+                        <label for="11.000" class="quizzForm">11.000km<sup>2</sup></label>
+            
+                        <input type="checkbox" id="20.000" name="area">
+                        <label for="area" class="quizzForm">20.000km<sup>2</sup></label>
+        
+                        <input type="checkbox" id="12.145" name="area" multiple>
+                        <label for="12.145" class="quizzForm">12.145km<sup>2</sup></label>
+                    </fieldset>
+            
+                    <fieldset>
+                        <label for="fundada">Sydney foi fundada em...</label>
+                        <input type="date" id="fundada" name="data">
+                    </fieldset>
+            
+                    <fieldset>
+                        <label for_="populacao">Qual é a população total de sydney?</label>
+                        <input type="number" id="populacao" name="populacao" min="1000000" step="5">
+                    </fieldset>
+            
+                    <fieldset>
+                        <label for="pais">Em que país fica sydney?</label>
+                        <select name="pais" id="pais">
+                            <option value="Portugal">Portugal</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                            <option value="Austrália">Austrália</option>
+                        </select>
+                    </fieldset>
+            
+                    <fieldset>
+                        <label for="temperatura">Que temperatura atinge no verão (entre 1 e 50):</label>
+                        <input type="range" id="temperatura" name="temperatura" min="1" max="50" oninput="temperaturaN.value = parseInt(temperatura.value)"><output name="temperaturaN" for="temperatura">0</output> %
+                    </fieldset>
+                    
+                    <fieldset>
+                        <p>Submita para ver o que acontece...</p>
+                        <input type="image" src="images/australia.png" alt="Submit" width="100">
+                    </fieldset>
+            
+                    <fieldset>
+                        <label for="bandeira">Selecione a cor que mais predomina na bandeira de Austrália...</label>
+                        <input type="color" nome="bandeira" value="#ffffff">
+                    </fieldset>
+                    <div class="quizzForm">
+                        Insira a sua opinião aqui:
+                        <br>
+                        <textarea name="opiniao" rows="10" cols="20" maxlength="100">
+                            Pode inserir texto aqui...
+                        </textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>    
+            </section>
+            <section>       
+                <hr>
+                <svg width="600px" height="500px">
+                    <g transform="translate(100,100)">
+                            <a href="info.html">
+                            <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:22; visibility:hidden" >Informação
+                                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                                <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" />
+                                </text> 
+                            </a>
+                            <a href="quizz.html">
+                            <text id="TextElement" x="25" y="50" style="font-family:courier,arial,helvetica;font-size:24; visibility:hidden">Quizz
+                                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                                <animateMotion path="M 0 0 L 30 110" begin="1s" dur="5s" fill="freeze" />
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="5s" dur="5s" fill="freeze" /> 
+                                </text> 
+                        </a>
+                            <a href="index.html">
+                            <text id="TextElement" x="100" y="50" style="font-family:Verdana;font-size:20; visibility:hidden">Introdução
+                                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                                <animateMotion path="M 0 0 L 100 110" begin="1s" dur="5s" fill="freeze" />
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                            </text> 
+                        </a>
+                            <a href="multimedia.html">
+                            <text id="TextElement" x="170" y="90" style="font-family:Verdana;font-size:12; visibility:hidden">Multimédia
+                                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                                <animateMotion path="M 0 0 L 50 150" begin="1s" dur="5s" fill="freeze" />
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="2s" dur="5s" fill="freeze" /> 
+                            </text> 
+                        </a>
+                        <a href="comentarios.html">
+                            <text id="TextElement" x="10" y="80" style="font-family:Arial;font-size:16; visibility:hidden">Comentários
+                                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                                <animateMotion path="M 0 0 L 30 110" begin="1s" dur="5s" fill="freeze" />
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                            </text> 
+                        </a>
+                        <a href="local.html">
+                            <text id="TextElement" x="0" y="10" style="font-family:Times;font-size:18; visibility:hidden">Localização
+                                <set attributeName="visibility" attributeType="CSS" to="visible" begin="3s" dur="4s" fill="freeze" />
+                                <animateMotion path="M 0 0 L 30 30" begin="1s" dur="5s" fill="freeze" />
+                                <animateTransform attributeName="-ms-transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                            </text> 
+                        </a>
+                    </g>
+                </svg>   
+            </section>
+        </main>
+        <aside>
+            <div>
+                <img src="images/sydney_aside.jpg" alt="sydney" width="250px">
+            </div>
+            <br><br>
+            <div>
+                <img src="images/sydney_aside_1.jpg" alt="sydney" width="250px">
+            </div>
+        </aside> 
+        <footer>
+            <center>Rodrigo Santos-a21904445, Universidade Lusófona no 2ºano</center>
+        </footer>
+    </body>
+</html>

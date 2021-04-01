@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rodrigo Santos">
+        <meta name="keywords" content="Sydney">
+        <meta name="description" content="Website sobre Sydney">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sydney</title>
+        <link rel="shortcut icon" type="images/icon" href="images/icon.ico"/>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="images/img.jpg" alt="Sydney" id="mainImage">
+                <figcaption id="mainImageCaption">Sydney <img class="animatedGif" src="https://media.giphy.com/media/VNGhrQtzWORWM/giphy.gif"></figcaption>
+            </figure>
+            <br>
+        </header>
+        
+        <nav>
+            <a href="index.html" id="indexLink"><span class="material-icons">&#xe22b;</span>Introdução</a>
+            <a href="local.html" id="localLink"><span class="material-icons">&#xe8b4;</span>Localização</a>
+            <b><a href="multimedia.html" id="multimediaLink"><span class="material-icons">&#xe04a;</span>Multimédia</a></b>
+            <a href="info.html" id="infoLink"><span class="material-icons md-24">info</span>Informação</a>
+            <a href="quizz.html" id="quizzLink"><span class="material-icons">&#xe8af;</span>Quizz</a>
+            <a href="comentarios.html" id="comentariosLink"><span class="material-icons md-24">feedback</span>Comentários</a>
+            <a href="html5-css.html" id="html5EcssLink"><span class="material-icons md-24">settings</span>HTML5 e CSS</a>
+            <a href="../index.html"id="homeLink"><span class="material-icons">&#xe88a;</span>Home</a>
+        </nav>
+
+        <main>
+        <section>
+            <h3>Multimédia</h3>
+            <p class="operaBridgeImages">Sydney Opera House e Sydney Harbour Bridge:</p>
+            <figure>
+                <picture>
+                    <a href="./images/opera_sydney_grande.jpg" target="_blank"><img src="./images/opera_sydney_pequena.jpg" alt="opera de Sydney"></a>
+                    <caption>Opera de Sydney <a href="https://pt.wikiarquitectura.com/constru%C3%A7%C3%A3o/opera-de-sydney" target="_blank">[1]</a></caption>
+                </picture>
+            </figure>
+            <figure>
+                <picture>
+                    <a href="./images/ponte_sydney_grande.jpg" target="_blank"><img src="./images/ponte_sydney_pequena.jpg" alt="ponte de Sydney"></a>
+                    <caption>Ponte Harbour Bridge de Sydney <a href="https://www.fotosedestinos.com/escalando-sydney-harbour-bridge-famosa-ponte-australia" target="_blank">[2]</a></caption>
+                </picture>
+            </figure>
+        </section>
+        <section>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/na9eBzLMhTg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="poemTitleAndAuthor">
+                <center><p>Sydney Is City Of Beauty</p>
+                        <p>Basim Alansari</p>
+                </center>
+            </div>
+            <div class="poem">
+                <center><i>
+                    Sydney is city of beauty
+                    <br>Surrounded by many trees
+                    <br>It's not just a cuttie
+                    <br>Breathing lovely breeze
+                    <br>
+                    <br>Sydney is beyond a town
+                    <br>It's full of life and spirit
+                    <br>For fun it's a crown
+                    <br>Serves its every resident
+                </i></center>
+            </div>
+        </section>
+        <figure>
+            <img id="stickyImage" src="https://media.giphy.com/media/VNGhrQtzWORWM/giphy.gif">
+        </figure>
+        <section>
+            <hr>
+            <img src="images/ponte_svg.png" width="500">
+            <br>
+            <caption>Ponte Harbour Bridge desenhada por mim num editor svg</caption>
+            <hr>
+            <div>
+                <p class="sydneyAtNight">Sydney at night</p>
+                <div>
+                    <img src="images/keyframe_image_1.jpg" class="sydneyNight" width="300px" height="200px">
+                    <img src="images/keyframe_image_1.jpg" class="sydneyNight1" width="300px" height="200px">
+                    <img src="images/keyframe_image_1.jpg" class="sydneyNight2" width="300px" height="200px">
+                </div>
+                <div>
+                    <img src="images/keyframe_image_2.jpg" class="sydneyNight" width="300px" height="200px">
+                    <img src="images/keyframe_image_2.jpg" class="sydneyNight1" width="300px" height="200px">
+                    <img src="images/keyframe_image_2.jpg" class="sydneyNight2" width="300px" height="200px">
+                </div>
+                <div>
+                    <img src="images/keyframe_image_3.jpg" class="sydneyNight" width="300px" height="200px">
+                    <img src="images/keyframe_image_3.jpg" class="sydneyNight1" width="300px" height="200px">
+                    <img src="images/keyframe_image_3.jpg" class="sydneyNight2" width="300px" height="200px">
+                </div>
+                <div>
+                    <img src="images/keyframe_image_4.jpg" class="sydneyNight" width="300px" height="200px">
+                    <img src="images/keyframe_image_4.jpg" class="sydneyNight1" width="300px" height="200px">
+                    <img src="images/keyframe_image_4.jpg" class="sydneyNight2" width="300px" height="200px">
+                </div>
+            </div>
+            <hr>
+            <svg width="600px" height="500px">
+                <g transform="translate(100,100)">
+                        <a href="info.html">
+                        <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:22; visibility:hidden" >Informação
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                            <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" />
+                            </text> 
+                        </a>
+                        <a href="quizz.html">
+                        <text id="TextElement" x="25" y="50" style="font-family:courier,arial,helvetica;font-size:24; visibility:hidden">Quizz
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 30 110" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="5s" dur="5s" fill="freeze" /> 
+                            </text> 
+                    </a>
+                        <a href="index.html">
+                        <text id="TextElement" x="100" y="50" style="font-family:Verdana;font-size:20; visibility:hidden">Introdução
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 100 110" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                        <a href="multimedia.html">
+                        <text id="TextElement" x="170" y="90" style="font-family:Verdana;font-size:12; visibility:hidden">Multimédia
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 50 150" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="2s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                    <a href="comentarios.html">
+                        <text id="TextElement" x="10" y="80" style="font-family:Arial;font-size:16; visibility:hidden">Comentários
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 30 110" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                    <a href="local.html">
+                        <text id="TextElement" x="0" y="10" style="font-family:Times;font-size:18; visibility:hidden">Localização
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="3s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 30 30" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="-ms-transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                    </g>
+                </svg>        
+        </section>
+        </main>
+        <aside>
+            <div>
+                <img src="images/sydney_aside.jpg" alt="sydney" width="250px">
+            </div>
+            <br><br>
+            <div>
+                <img src="images/sydney_aside_1.jpg" alt="sydney" width="250px">
+            </div>
+        </aside>
+        <footer>
+            <center>Rodrigo Santos-a21904445, Universidade Lusófona no 2ºano</center>
+        </footer>
+    </body>
+</html>

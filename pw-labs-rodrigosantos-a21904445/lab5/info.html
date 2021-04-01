@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rodrigo Santos">
+        <meta name="keywords" content="Sydney">
+        <meta name="description" content="Website sobre Sydney">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sydney</title>
+        <link rel="shortcut icon" type="images/icon" href="images/icon.ico"/>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="images/img.jpg" alt="Sydney" id="mainImage">
+                <figcaption id="mainImageCaption">Sydney <img class="animatedGif" src="https://media.giphy.com/media/VNGhrQtzWORWM/giphy.gif"></figcaption>
+            </figure>
+            <br>
+        </header>
+        
+        <nav>
+            <a href="index.html" id="indexLink"><span class="material-icons">&#xe22b;</span>Introdução</a>
+            <a href="local.html" id="localLink"><span class="material-icons">&#xe8b4;</span>Localização</a>
+            <a href="multimedia.html" id="multimediaLink"><span class="material-icons">&#xe04a;</span>Multimédia</a>
+            <b><a href="info.html" id="infoLink"><span class="material-icons md-24">info</span>Informação</a></b>
+            <a href="quizz.html" id="quizzLink"><span class="material-icons">&#xe8af;</span>Quizz</a>
+            <a href="comentarios.html" id="comentariosLink"><span class="material-icons md-24">feedback</span>Comentários</a>
+            <a href="html5-css.html" id="html5EcssLink"><span class="material-icons md-24">settings</span>HTML5 e CSS</a>
+            <a href="../index.html"id="homeLink"><span class="material-icons">&#xe88a;</span>Home</a>
+        </nav>
+
+        <main>
+        <section>
+            <h3>Informações</h3>
+            <table border="1" cellpading="10%" cellspacing="5%">
+                <caption>
+                    <i><b>Informações sobre Sydney</b></i>
+                </caption>
+                <tr>
+                    <thead>
+                        <th rowspan="2" bgcolor="yellow"> Demografia</th>
+                    </thead>
+                    <tbody>
+                        <td>População</td>
+                        <td align="center">5.312.163 habitantes</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>Densidade Populacional</td>
+                        <td align="center">423 hab/km<sup>2</sup></td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <thead>
+                        <th rowspan="3" bgcolor="yellow"> Geografia</th>
+                    </thead>
+                    <tbody>
+                        <td>Área</td>
+                        <td align="center">12.367 km<sup>2</sup></td> 
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>Região</td>
+                        <td align="center">Sydney</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <tbody>
+                        <td>País</td>
+                        <td align="center">Austrália</td>
+                    </tbody>
+                </tr>
+                <tr>
+                    <thead>
+                        <th bgcolor="yellow">Website</th>
+                    </thead>
+                    <tbody>
+                        <td colspan="2" align="center" bgcolor="indianred"><a href="https://www.sydney.com" target="_blank">https://www.sydney.com</a></td>
+                    </tbody>
+                </tr>
+            </table>    
+        </section>
+        <section>
+            <hr>
+            <svg width="600px" height="500px">
+                <g transform="translate(100,100)">
+                        <a href="info.html">
+                        <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:22; visibility:hidden" >Informação
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                            <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" />
+                            </text> 
+                        </a>
+                        <a href="quizz.html">
+                        <text id="TextElement" x="25" y="50" style="font-family:courier,arial,helvetica;font-size:24; visibility:hidden">Quizz
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 30 110" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="5s" dur="5s" fill="freeze" /> 
+                            </text> 
+                    </a>
+                        <a href="index.html">
+                        <text id="TextElement" x="100" y="50" style="font-family:Verdana;font-size:20; visibility:hidden">Introdução
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 100 110" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                        <a href="multimedia.html">
+                        <text id="TextElement" x="170" y="90" style="font-family:Verdana;font-size:12; visibility:hidden">Multimédia
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 50 150" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="2s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                    <a href="comentarios.html">
+                        <text id="TextElement" x="10" y="80" style="font-family:Arial;font-size:16; visibility:hidden">Comentários
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 30 110" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                    <a href="local.html">
+                        <text id="TextElement" x="0" y="10" style="font-family:Times;font-size:18; visibility:hidden">Localização
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="3s" dur="4s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 30 30" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="-ms-transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                </g>
+            </svg>
+        </section>
+    </main>
+    <aside>
+        <div>
+            <img src="images/sydney_aside.jpg" alt="sydney" width="250px">
+        </div>
+        <br><br>
+        <div>
+            <img src="images/sydney_aside_1.jpg" alt="sydney" width="250px">
+        </div>
+    </aside>
+    <footer>
+        <center>Rodrigo Santos-a21904445, Universidade Lusófona no 2ºano</center>
+    </footer>
+    </body>
+</html>
